@@ -1,0 +1,39 @@
+@media (max-width: 26em) {
+  body {
+    background-image: url("../images/bg-mobile.png");
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .container {
+    max-width: 33rem;
+    margin: 0 auto;
+  }
+
+  .fylo-state {
+    flex-direction: column;
+  }
+
+  .controls-box {
+    padding: 4rem 11.4rem 4rem 4rem;
+  }
+
+  .used-storage-box {
+    text-align: center;
+    width: 33rem;
+    padding: 3rem 3rem 5rem;
+  }
+
+  .storage-left {
+    border-radius: 10px;
+    top: auto;
+    right: 0;
+    left: 0;
+    bottom: -4rem;
+    margin: 0 auto;
+  }
+
+  .storage-left::after {
+    display: none;
+  }
+}

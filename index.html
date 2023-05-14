@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="sr-only">Fylo Cloud Storage</h1>
+      <div class="container align-center">
+        <div class="fylo-state">
+          <div class="controls-box">
+            <img class="logo" src="./images/logo.svg" alt="Fylo" />
+            <div class="controls">
+              <button class="btn" type="button" aria-label="New Document">
+                <img class="btn-icon" src="./images/icon-document.svg" />
+              </button>
+              <button class="btn" type="button" aria-label="New Folder">
+                <img class="btn-icon" src="./images/icon-folder.svg" />
+              </button>
+              <button class="btn" type="button" aria-label="Upload">
+                <img class="btn-icon" src="./images/icon-upload.svg" />
+              </button>
+            </div>
+          </div>
+          <div class="used-storage-box">
+            <p class="storage-used">
+              You’ve used <strong>815 GB</strong> of your storage
+            </p>
+            <div class="used-storage-bar"></div>
+            <div class="storage">
+              <p><strong>0 GB</strong></p>
+              <p><strong>1000 GB</strong></p>
+            </div>
+            <div class="storage-left">
+              <p class="storage-left-num">185</p>
+              <p class="storage-left-text">GB left</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Alejandro Perdomo</a>.
+      </div>
+    </footer>
+  </body>
+</html>
